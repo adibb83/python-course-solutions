@@ -7,4 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.11 (HW solution) (3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="C:\Development\codevalue\python course\HW solution\requirements.txt" />
+  </component>
 </module>

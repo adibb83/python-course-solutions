@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1a445f-453d-4dbd-b5cd-2bbbbe8cea40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HW solution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/data_from_html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/extracting_from_Logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/key_value_from_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/quadratic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/solutions/type_conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/data_from_html_test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/data_from_html_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/key_value_test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/key_value_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/quadratic_test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW1/tests/quadratic_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="bb1a445f-453d-4dbd-b5cd-2bbbbe8cea40" name="Changes" comment="home work 1">
+      <change afterPath="$PROJECT_DIR$/HW2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/solutions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/solutions/calculater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/solutions/git_CLI_command_simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/solutions/log_content_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/tests/calc_unitests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/tests/git_cli_command_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/tests/log_content_analyzer_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HW solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HW solution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +49,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2guP3QJg5DotDxOZBAE0mQXxBot" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,18 +60,25 @@
   "keyToString": {
     "Python tests.Python tests in data_from_html_test1.py.executor": "Run",
     "Python tests.Python tests in data_from_html_test2.py.executor": "Run",
+    "Python tests.Python tests in git_cli_command_tests.py.executor": "Run",
     "Python tests.Python tests in key_value_test1.py.executor": "Run",
     "Python tests.Python tests in key_value_test2.py.executor": "Run",
+    "Python tests.Python tests in log_content_analyzer_tests.py.executor": "Run",
     "Python tests.Python tests in quadratic_test1.py.executor": "Run",
     "Python tests.Python tests in quadratic_test2.py.executor": "Run",
+    "Python tests.Python tests in tyoe_convert_test1.py.executor": "Run",
+    "Python.calculater.executor": "Run",
     "Python.data_from_html.executor": "Run",
     "Python.extracting_from_Logs.executor": "Run",
+    "Python.git_CLI_command_simulator.executor": "Run",
+    "Python.log_content_analyzer.executor": "Run",
     "Python.quadratic.executor": "Run",
     "Python.type_conversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/codevalue/python course/HW solution",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -105,6 +104,15 @@
       <option name="presentableId" value="Default" />
       <updated>1716544290141</updated>
     </task>
+    <task id="LOCAL-00001" summary="home work 1">
+      <option name="closed" value="true" />
+      <created>1716901115389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716901115389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="home work 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work 1" />
   </component>
 </project>
