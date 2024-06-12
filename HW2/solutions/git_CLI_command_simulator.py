@@ -1,17 +1,16 @@
 import re
 
 
-def git_command_simulator(user_input: str) -> str:
-    def check_strings_in_order(user_input, git_command):
-        i, j = 0, 0
+def git_command_simulator(user_input: str) -> None:
+    def check_strings_in_order(user_input: list[str], git_command: list[str]) -> bool:
+        input_index, command_index = 0, 0
 
-        while i < len(user_input) and j < len(git_command):
-            if user_input[i] == git_command[j]:
-                i += 1
-            j += 1
-        return i == len(user_input)
+        while input_index < len(user_input) and command_index < len(git_command):
+            if user_input[input_index] == git_command[command_index]:
+                input_index += 1
+            command_index += 1
+        return input_index == len(user_input)
 
-    # Define Git commands
     GIT_ADD = "git add"
     GIT_RM = "git rm --cached"
     GIT_COMMIT = "git commit -m"
@@ -44,5 +43,5 @@ def git_command_simulator(user_input: str) -> str:
 
 print("enter GIT command")
 user_input = input()
-result = git_command_simulator(user_input)
+git_command_simulator(user_input)
 

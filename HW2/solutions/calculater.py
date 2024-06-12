@@ -10,9 +10,9 @@ def simple_calc(user_input: str) -> str:
 
     def get_user_numbers(user_input: list[str]) -> list[int]:
         extracted_numbers: list[int] = []
-        for s in user_input:
-            if s.isdigit():
-                extracted_numbers.append(int(s))
+        for word in user_input:
+            if word.isdigit():
+                extracted_numbers.append(int(word))
         return extracted_numbers
 
     def error_message():

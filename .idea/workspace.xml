@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1a445f-453d-4dbd-b5cd-2bbbbe8cea40" name="Changes" comment="home work 1">
-      <change afterPath="$PROJECT_DIR$/HW2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/solutions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/solutions/calculater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/solutions/git_CLI_command_simulator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/solutions/log_content_analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/tests/calc_unitests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/tests/git_cli_command_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW2/tests/log_content_analyzer_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HW solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HW solution.iml" afterDir="false" />
+    <list default="true" id="bb1a445f-453d-4dbd-b5cd-2bbbbe8cea40" name="Changes" comment="home work 2">
+      <change afterPath="$PROJECT_DIR$/HW3/solutions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/solutions/type_checkin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW3/tests/test_type_checking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/solutions/calculater.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/solutions/calculater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/solutions/git_CLI_command_simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/solutions/git_CLI_command_simulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/tests/calc_unitests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/tests/test_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/tests/git_cli_command_unitests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/tests/test_git_cli_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/tests/log_content_analyzer_unitests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/tests/test_log_content_analyzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -34,10 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;adibb83&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -66,6 +62,7 @@
     "Python tests.Python tests in log_content_analyzer_tests.py.executor": "Run",
     "Python tests.Python tests in quadratic_test1.py.executor": "Run",
     "Python tests.Python tests in quadratic_test2.py.executor": "Run",
+    "Python tests.Python tests in test_type_checking.py.executor": "Run",
     "Python tests.Python tests in tyoe_convert_test1.py.executor": "Run",
     "Python.calculater.executor": "Run",
     "Python.data_from_html.executor": "Run",
@@ -73,6 +70,7 @@
     "Python.git_CLI_command_simulator.executor": "Run",
     "Python.log_content_analyzer.executor": "Run",
     "Python.quadratic.executor": "Run",
+    "Python.type_checkin.executor": "Run",
     "Python.type_conversion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -112,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716901115389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="home work 2">
+      <option name="closed" value="true" />
+      <created>1717835473062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717835473062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home work 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work 1" />
+    <MESSAGE value="home work 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work 2" />
   </component>
 </project>
