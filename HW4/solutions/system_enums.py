@@ -1,33 +1,37 @@
 from enum import Enum
 
+
 class Target(Enum):
-    MERCURY = 1
-    VENUS = 2
-    EARTH = 3
-    MARS = 4
-    JUPITER = 5
-    SATURN = 6
-    URANUS = 7
-    NEPTUNE = 8
-    PLUTO = 9
-    MOON = 10
-    SUN = 11
+    MERCURY = "MERCURY"
+    VENUS = "VENUS"
+    EARTH = "EARTH"
+    MARS = "MARS"
+    JUPITER = "JUPITER"
+    SATURN = "SATURN"
+    URANUS = "URANUS"
+    NEPTUNE = "NEPTUNE"
+    PLUTO = "PLUTO"
+    MOON = "MOON"
+    SUN = "SUN"
+
 
 class MissionStatus(Enum):
-    PLANNING = 1
-    LAUNCHED = 2
-    IN_TANSIT = 3
-    COMPLITED = 4
-    CANCELED = 5
+    PLANNING = "PLANNING"
+    LAUNCHED = "LAUNCHED"
+    IN_TRANSIT = "IN_TRANSIT"
+    COMPLETED = "COMPLETED"
+    CANCELED = "CANCELED"
+
 
 class SpacecraftName(Enum):
-    APOLLO = 1
-    ARTEMIS = 2
-    ORION = 3
-    DRAGON = 4
-    STARSHIP = 5
+    APOLLO = "APOLLO"
+    ARTEMIS = "ARTEMIS"
+    ORION = "ORION"
+    DRAGON = "DRAGON"
+    STARSHIP = "STARSHIP"
+
 
 class SpacecraftSize(Enum):
-    SMALL = 1
-    MEDIUM = 2
-    LARGE = 3
+    SMALL = "SMALL"
+    MEDIUM = "MEDIUM"
+    LARGE = "LARGE"

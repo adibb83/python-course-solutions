@@ -1,10 +1,12 @@
-from system_enums import MissionStatus
+import uuid
+from datetime import datetime
+from HW4.solutions.system_enums import MissionStatus
+
 
 class Mission:
-    def __init__(self, mission_id, launch_date, spacecraft_id, destination, distance, status = MissionStatus.PLANNING):
-        self.id = mission_id
-        self.Launch_Date = launch_date
+    def __init__(self, launch_date: datetime, spacecraft_id: str, destination_id: str, status=MissionStatus.PLANNING):
+        self.id = str(uuid.uuid4())
+        self.launch_date = launch_date
         self.spacecraft_id = spacecraft_id
-        self.destination = destination
-        self.distance = distance
+        self.destination_id = destination_id
         self.status = status

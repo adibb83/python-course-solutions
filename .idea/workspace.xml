@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb1a445f-453d-4dbd-b5cd-2bbbbe8cea40" name="Changes" comment="home work 2">
+      <change afterPath="$PROJECT_DIR$/final_project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/main/communication_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/main/launchpad_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/main/mission_control_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/main/space_craft_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final_project/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/solutions/DB_Mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/solutions/DB_Mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/solutions/data_access_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/solutions/data_access_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/solutions/mission.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/solutions/mission.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/solutions/spacecraft.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/solutions/spacecraft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4/solutions/system_enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/solutions/system_enums.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,36 +55,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in data_from_html_test1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in data_from_html_test2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in git_cli_command_tests.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in key_value_test1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in key_value_test2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in log_content_analyzer_tests.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in quadratic_test1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in quadratic_test2.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_type_checking.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tyoe_convert_test1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.calculater.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_from_html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.extracting_from_Logs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.git_CLI_command_simulator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.log_content_analyzer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quadratic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.type_checkin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.type_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/codevalue/python course/HW solution&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in data_from_html_test1.py.executor": "Run",
+    "Python tests.Python tests in data_from_html_test2.py.executor": "Run",
+    "Python tests.Python tests in git_cli_command_tests.py.executor": "Run",
+    "Python tests.Python tests in key_value_test1.py.executor": "Run",
+    "Python tests.Python tests in key_value_test2.py.executor": "Run",
+    "Python tests.Python tests in log_content_analyzer_tests.py.executor": "Run",
+    "Python tests.Python tests in quadratic_test1.py.executor": "Run",
+    "Python tests.Python tests in quadratic_test2.py.executor": "Run",
+    "Python tests.Python tests in test_type_checking.py.executor": "Run",
+    "Python tests.Python tests in tyoe_convert_test1.py.executor": "Run",
+    "Python.calculater.executor": "Run",
+    "Python.data_from_html.executor": "Run",
+    "Python.extracting_from_Logs.executor": "Run",
+    "Python.git_CLI_command_simulator.executor": "Run",
+    "Python.log_content_analyzer.executor": "Run",
+    "Python.mission_control_service.executor": "Run",
+    "Python.quadratic.executor": "Run",
+    "Python.type_checkin.executor": "Run",
+    "Python.type_conversion.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/codevalue/python course/HW solution",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\codevalue\python course\HW solution\final_project\main" />
       <recent name="C:\Development\codevalue\python course\HW solution\HW1\tests" />
       <recent name="C:\Development\codevalue\python course\HW solution\HW1\solutions" />
     </key>
@@ -80,7 +94,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
